@@ -1,0 +1,39 @@
+/*varibles*/
+:root{
+    --main-font: helvetica, calibri, sans-serif;
+    --nav-link: #4d1d18;
+    --nav-hover: #555555;
+    --major-heading: #87423c;
+    --major-heading-size: 36px;
+    --sub-heading: #4d1d18;
+    --sub-heading-size: 24px;
+    --paragraph-lh: 150%;
+    --content-link: #87423c;
+    --footer-link: #87423c;
+}
+
+body{
+    font-family: var(--main-font);
+}
+
+h1{
+    color: var(--major-heading);
+    font-size: var(--major-heading-size);
+}
+
+h2{
+    color: var(--sub-heading);
+    font-size: var(--sub-heading-size);
+}
+
+.content{
+    line-height: var(--paragraph-lh);
+}
+
+.content a{
+    color: var(--content-link);
+}
+
+.footer {
+    color: var(--footer-link);
+}
